@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    
+}
+
+
+
+aside{
+    background-color: #025e73;
+    flex-direction: column;
+    height: 100vh;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55%;
+    
+
+}
+
+
+.cabecalho .logocaminhoes {
+    margin-top: 10px;
+    width: 90px;
+    height: 80px;
+}
+
+
+
+
+.imagempessoa{
+  display: flex;
+  
+    
+
+    
+}
+.imagempessoa .pessoa{
+    display: flex;
+    width: 85px;
+    
+   
+    
+
+}
+
+.imagemconfigura {
+   position: relative;
+   
+    
+
+   
+}
+
+.imagemconfigura .configura{
+     position: absolute;
+     width: 25px;
+     bottom: 40px;
+     right: -50px;
+
+
+}
+
+
+ .menu_lista{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    font-size: 0px;
+    text-align: center;
+    
+
+
+
+ }
+.unidadelogo{
+   
+    width: 25px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+.usuarioslogo{
+    width: 28px;
+    
+
+}
+.menu_lista ul li {
+    
+    list-style-type: none;
+    
+    
+
+}
+
+.menu_lista ul li a{
+    
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    
+
+}
+
+
+
+.saida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saida a{
+    display: flex;
+    padding-top: -100px;
+    align-items: center;
+
+}
+.saida  a img{
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    width: 35px;
+
+
+
+} 
+
+.saida .logomarca{
+    width: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+.botao_selecionar{
+   display: flex;
+   justify-content:end;
+}
+
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btn_cadastrar{
+/* position: relative;
+width: 180px;
+height: 32.85px;
+left: calc(50% - 180px/2 + 575.95px);
+top: calc(50% - 32.85px/2 - 314.05px); */
+
+
+} 
+
+
+
+
